@@ -33,7 +33,7 @@ const Shop = () => {
             // console.log('added to pep',addedProduc)
         }
         setCart(saveCart);
-    },[])
+    },[products])
         
     const handleAddToCort = (product) =>{
     //  cart.push(product)
